@@ -11,6 +11,13 @@
 		3C0DBCAF2896CCDB00338F11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0DBCAE2896CCDB00338F11 /* ContentView.swift */; };
 		3C0DBCB12896CCDB00338F11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C0DBCB02896CCDB00338F11 /* Assets.xcassets */; };
 		3C0DBCB42896CCDB00338F11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C0DBCB32896CCDB00338F11 /* Preview Assets.xcassets */; };
+		3C0DBCBB2896CF3F00338F11 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 3C0DBCBA2896CF3F00338F11 /* Sounds */; };
+		3C0DBCBD2896CF8900338F11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C0DBCBC2896CF8900338F11 /* LaunchScreen.storyboard */; };
+		3C0DBCBF2896D21400338F11 /* HonemoonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0DBCBE2896D21400338F11 /* HonemoonModel.swift */; };
+		3C0DBCC22896D26B00338F11 /* HoneymoonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0DBCC12896D26B00338F11 /* HoneymoonData.swift */; };
+		3C0DBCC62896D2FE00338F11 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0DBCC52896D2FE00338F11 /* CardView.swift */; };
+		3C0DBCC82896D73B00338F11 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0DBCC72896D73B00338F11 /* HeaderView.swift */; };
+		3C0DBCCA2896D99700338F11 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0DBCC92896D99700338F11 /* FooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		3C0DBCAE2896CCDB00338F11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3C0DBCB02896CCDB00338F11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C0DBCB32896CCDB00338F11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C0DBCBA2896CF3F00338F11 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		3C0DBCBC2896CF8900338F11 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C0DBCBE2896D21400338F11 /* HonemoonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HonemoonModel.swift; sourceTree = "<group>"; };
+		3C0DBCC12896D26B00338F11 /* HoneymoonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonData.swift; sourceTree = "<group>"; };
+		3C0DBCC52896D2FE00338F11 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		3C0DBCC72896D73B00338F11 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		3C0DBCC92896D99700338F11 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +65,14 @@
 		3C0DBCAB2896CCDB00338F11 /* Honeymoon */ = {
 			isa = PBXGroup;
 			children = (
+				3C0DBCC42896D2E700338F11 /* View */,
+				3C0DBCC32896D27C00338F11 /* Data */,
+				3C0DBCC02896D21900338F11 /* Model */,
+				3C0DBCBA2896CF3F00338F11 /* Sounds */,
 				3C0DBCAC2896CCDB00338F11 /* HoneymoonApp.swift */,
-				3C0DBCAE2896CCDB00338F11 /* ContentView.swift */,
 				3C0DBCB02896CCDB00338F11 /* Assets.xcassets */,
 				3C0DBCB22896CCDB00338F11 /* Preview Content */,
+				3C0DBCBC2896CF8900338F11 /* LaunchScreen.storyboard */,
 			);
 			path = Honeymoon;
 			sourceTree = "<group>";
@@ -65,6 +83,33 @@
 				3C0DBCB32896CCDB00338F11 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C0DBCC02896D21900338F11 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3C0DBCBE2896D21400338F11 /* HonemoonModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3C0DBCC32896D27C00338F11 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3C0DBCC12896D26B00338F11 /* HoneymoonData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		3C0DBCC42896D2E700338F11 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3C0DBCAE2896CCDB00338F11 /* ContentView.swift */,
+				3C0DBCC52896D2FE00338F11 /* CardView.swift */,
+				3C0DBCC72896D73B00338F11 /* HeaderView.swift */,
+				3C0DBCC92896D99700338F11 /* FooterView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +170,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C0DBCBB2896CF3F00338F11 /* Sounds in Resources */,
+				3C0DBCBD2896CF8900338F11 /* LaunchScreen.storyboard in Resources */,
 				3C0DBCB42896CCDB00338F11 /* Preview Assets.xcassets in Resources */,
 				3C0DBCB12896CCDB00338F11 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +184,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C0DBCC22896D26B00338F11 /* HoneymoonData.swift in Sources */,
+				3C0DBCCA2896D99700338F11 /* FooterView.swift in Sources */,
+				3C0DBCC82896D73B00338F11 /* HeaderView.swift in Sources */,
 				3C0DBCAF2896CCDB00338F11 /* ContentView.swift in Sources */,
 				3C0DBCAD2896CCDB00338F11 /* HoneymoonApp.swift in Sources */,
+				3C0DBCBF2896D21400338F11 /* HonemoonModel.swift in Sources */,
+				3C0DBCC62896D2FE00338F11 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +325,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,6 +356,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
