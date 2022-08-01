@@ -14,7 +14,7 @@ struct HeaderView: View {
     
     @Binding var showInfoView: Bool
     
-    let haptics: UINotificationFeedbackGenerator()
+    let haptics = UINotificationFeedbackGenerator()
     
     // MARK: - BODY
     var body: some View {
