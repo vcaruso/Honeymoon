@@ -7,6 +7,7 @@
 
 import SwiftUI
 struct Destination {
+    var id = UUID()
     var place: String
     var country: String
     var image: String

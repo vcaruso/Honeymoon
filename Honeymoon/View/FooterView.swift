@@ -13,6 +13,8 @@ struct FooterView: View {
     
     @Binding var showBookingAlert: Bool
     
+    let haptics = UINotificationFeedbackGenerator()
+    
     // MARK: - BODY
     var body: some View {
         HStack {
@@ -22,6 +24,8 @@ struct FooterView: View {
             Spacer()
             
             Button(action: {
+                playSound(sound: "sound-click", type: "mp3")
+                haptics.notificationOccurred(.success)
                 showBookingAlert.toggle()
             }) {
                 Text("Book Destnation".uppercased())
